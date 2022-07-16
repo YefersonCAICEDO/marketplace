@@ -1,0 +1,8 @@
+.div_borradores {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 10px;
+    cursor: pointer;
+    width: 2.5rem;
+}

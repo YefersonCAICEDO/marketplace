@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsivo.css">
+    <link rel="stylesheet" href="../assets/css/agregar.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/img/Logo.png" type="image/x-icon">
+
+    <title>Store | Alura</title>
+
+</head>
+
+<body class="app" id="body_login">
+    <header class="encabezado">
+        <div class="container">
+            <a href="./administrador.html">
+                <img src="../assets/img/Logo.png" alt="logo">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section_agregar">
+            <div class="div_agregar">
+                <form>
+                    <h3 class="Agregar_producto">Agregar producto</h3>
+
+                    <label for="url_imagen"></label>
+                    <input id="url_imagen" class="agregar" name="url" type="text" placeholder="URL imagen" required>
+
+                    <label for="categoria"></label>
+                    <input id="categoria" class="agregar" name="categoria" type="text" placeholder="Categoria" required>
+
+                    <label for="nombre_producto"></label>
+                    <input id="nombre_producto" class="agregar" name="producto" type="text" placeholder="Nombre producto" required>
+
+                    <label for="precio"></label>
+                    <input id="precio" class="agregar" name="precio" type="number" placeholder="precio" required><br>
+
+                    <label for="descripcion"></label>
+                    <input id="descripcion" class="agregar" name="descripcion" type="text" placeholder="Descripcion del producto" required><br>
+
+
+                </form>
+                <a href="#"><button  class="btn_enviar_login" id="btn_entrar">Agregar</button></a>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="rodapie">
+        <section class="section_footer">
+            <div class="div_footer">
+                <div>
+                    <a href="./index.html">
+                        <img src="./assets/img/Logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="politica_footer">
+                    <nav class="nav_footer">
+                        <a class="nav_footer_link" href="#">
+                            Quienes somos
+                        </a>
+                        <a class="nav_footer_link" href="#">
+                            Politica de privacidad
+                        </a>
+                        <a class="nav_footer_link" href="#">
+                            Programa de fidelidad
+                        </a>
+                        <a class="nav_footer_link" href="#">
+                            Nuestras tiendas
+                        </a>
+                        <a class="nav_footer_link" href="#">
+                            Quiero ser franquiciado
+                        </a>
+                        <a class="nav_footer_link" href="#">
+                            Anúncie aqui
+                        </a>
+                    </nav>
+
+                </div>
+
+                <div class="formulario">
+                    <form>
+                        <h3 class="hable_nosotros">Hable con nosotros</h3>
+                        <label for="nombre"></label>
+                        <input id="nombre" class="input_footer" name="nombre" type="text" placeholder="Nombre" required>
+                        <label for="mensaje"></label>
+                        <input id="mensaje" class="input_footer" name="mensaje" type="text" placeholder="Escribe tu mensaje" required><br>
+
+                        <button class="btn_enviar_formulario">Enviar mensaje</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+        <section class="footer">
+            <h6>Desarrollado por Yeferson Caicedo</h6>
+            <h6>2022 </h6>
+            <div class="redes">
+                <a title="LinkedIn" href="https://www.linkedin.com/in/yeferson-caicedo-74752b23a">
+                    <img class="img-footer" id='linkedin' src="../assets/img/linkedin.png" alt="linkedin" />
+                </a>
+                <a title="GitHub" href="https://github.com/YefersonCAICEDO">
+                    <img class="img-footer" id="github" src="../assets/img/gitn.png" alt="github" />
+                </a>
+            </div>
+        </section>
+    </footer>
+    <script src="../assets/js/login.js"></script>
+
+</body>
+
+</html>

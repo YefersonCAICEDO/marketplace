@@ -1,0 +1,29 @@
+.section_agregar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.div_agregar {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Agregar_producto {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.agregar {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
