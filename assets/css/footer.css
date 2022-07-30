@@ -56,3 +56,18 @@ section.footer {
     width: 30px;
     margin-bottom: 10px;
 }
+
+@media(max-width: 769px) {
+    .div_footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__img {
+        text-align: center;
+    }
+    .section_footer {
+        padding: 1rem;
+    }
+}
+
+@media(min-width: 1000px) {}

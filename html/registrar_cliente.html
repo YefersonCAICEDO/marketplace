@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <title>Login | Alura Store </title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registro | marketplace</title>
+
+
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/login.css">
+
 </head>
 
-<body class="app" id="body_login">
-
+<body>
     <header class="encabezado">
 
         <div class="container">
@@ -22,27 +25,24 @@
         </div>
     </header>
 
-    <main>
-        <section class="section_login" id="body_login">
-            <div class="div_login">
-                <form>
-                    <h3 class="iniciar_seccion">Iniciar sección</h3>
-                    <label for="correo"></label>
-                    <input id="correo" class="input_login" name="correo" type="email" placeholder="Correo electronico" required>
-                    <label for="contraseña"></label>
-                    <input id="contraseña" class="input_login" name="contraseña" type="password" placeholder="Escribe tu contraseña" required><br>
-
-
-                </form>
-                <a href="./administrador.html"><button  class="btn_enviar_login" id="btn_entrar">Entrar</button></a>
-            </div>
+    <main class="container flex flex--center flex--column">
+        <section class="card cadastro">
+            <h1 class="card__title">Nuevo Cliente</h1>
+            <form class="flex flex--column" data-form>
+                <div class="input-container">
+                    <input name="nombre" id="nombre" class="input" type="text" placeholder="Nombre" required data-nombre />
+                    <label class="input-label" for="nombre">Nombre</label>
+                    <span class="input-menssage-error">Este campo es requerido</span>
+                </div>
+                <div class="input-container">
+                    <input name="email" id="email" class="input" type="text" placeholder="email" required data-email />
+                    <label class="input-label" for="email">Email</label>
+                    <span class="input-menssage-error">Este campo es requerido</span>
+                </div>
+                <button type="submit" class="button">Registrar</button>
+            </form>
         </section>
-
-
-
-
     </main>
-
 
     <footer class="rodapie">
         <section class="section_footer">
@@ -103,7 +103,8 @@
             </div>
         </section>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controllers/registro.js"></script>
 </body>
 
 </html>

@@ -37,3 +37,25 @@
     transform: scale(1);
     box-shadow: 0 5px 5px black;
 }
+
+@media (max-width:768px) {
+    .section_login {
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .div_login {
+        width: 100%;
+    }
+    .div_footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__img {
+        text-align: center;
+    }
+    .section_footer {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "usuario": [{
+            "nombre": "yeferson",
+            "email": "yeferson@alura.com",
+            "id": "b007442c-8aad-456b-b6a1-4fee1562eb84"
+        },
+        {
+            "nombre": "Hola",
+            "email": "asdczxzxcczxvfvfbgbtgrhy@gmal.com",
+            "id": "456800ab-670a-49df-a367-f2cfd4c5b27a"
+        }
+    ]
+}

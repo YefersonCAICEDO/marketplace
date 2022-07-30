@@ -10,117 +10,112 @@
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/populares.css" rel="stylesheet">
-
+    <link rel="icon" href="./assets/img/favicon.png">
     <link rel="stylesheet" href="./assets/css/responsivo.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
 
 
 
+
 </head>
 
-<body class="app">
-    <header class="encabezado">
+<body class="app" id="body">
 
+    <header class="encabezado banner">
         <div class="container">
-            <h1 class="header_nombre">
-                <img src="./assets/img/Logo.png" alt="logo">
-            </h1>
-            <input type="text" name="filtro " id="filtrar-tabla" placeholder="¿Que deseas buscar?">
-
+            <img src="./assets/img/Logo.png" alt="logo" class="logo">
+            <input type="text" name="filtro " class="search__bar" id="filtrar-tabla" placeholder="¿Que deseas buscar?">
             <a href="./html/login.html"> <button class="btnLogin" onclick="">Login</button></a>
-
-
-
         </div>
-        <img class="img_hongo" src="./assets/img/hongo.png" alt="hongo">
-
-
     </header>
+
+    <img class="img_hongo" src="./assets/img/hongo.png" alt="hongo">
+
     <main class="contenido">
-        <section class="populares">
-            <div class="populares__items">
-                <div class="populares__info">
-                    <div class="populares__header">
-                        <h4 class="populares__titulo">
+        <section class="star__wars">
+            <div class="items">
+                <div class="info">
+                    <div class="header section__header">
+                        <h4 class="titulo">
                             Star Wars
                         </h4>
-                        <button class="populares__boton">
+                        <button class="boton">
                           
                             Ver todo 
                         </button>
                     </div>
 
-                    <div class="populares__contenido">
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/cabeza.png"></img>
+                    <div class="contenido">
+                        <div class="card product">
+                            <img class="imagen" src="./assets/img/cabeza.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">producto xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">producto xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_epRFE_hBNjo.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_epRFE_hBNjo.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">producto xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">producto xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_KeGToDVN0l4.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_KeGToDVN0l4.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">producto xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">producto xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
 
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_4OHkK555s1A.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_4OHkK555s1A.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">producto xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">producto xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_R8L1l9RN198.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_R8L1l9RN198.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">producto xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">producto xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
 
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_1VV1MRafd7A.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_1VV1MRafd7A.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">producto xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">producto xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
@@ -131,89 +126,89 @@
         </section>
         <!---------------------------------------------------------------- -->
         <section>
-            <div class="populares__items">
-                <div class="populares__info">
-                    <div class="populares__header">
-                        <h4 class="populares__titulo">
+            <div class="items">
+                <div class="info">
+                    <div class="header">
+                        <h4 class="titulo">
                             Consolas
                         </h4>
-                        <button class="populares__boton">
+                        <button class="boton">
                           
                             Ver todo 
                         </button>
                     </div>
 
-                    <div class="populares__contenido">
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
+                    <div class="contenido">
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Control xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Control xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_caNzzoxls8Q.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_caNzzoxls8Q.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Control y consola xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Control y consola xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_ZV7lnfyQLmA.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_ZV7lnfyQLmA.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Consola xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Consola xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
 
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_wa5z9o9fgjw.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_wa5z9o9fgjw.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Control xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Control xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_Zjn4dT993-g.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_Zjn4dT993-g.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Consola xyz</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Consola xyz</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
 
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_k-xYhI3-gJM.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_k-xYhI3-gJM.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Game Boy Color</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Game Boy Color</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
@@ -224,88 +219,88 @@
         </section>
         <!---------------------------------------------------------------- -->
         <section>
-            <div class="populares__items">
-                <div class="populares__info">
-                    <div class="populares__header">
-                        <h4 class="populares__titulo">
+            <div class="items">
+                <div class="info">
+                    <div class="header">
+                        <h4 class="titulo">
                             Diversos
                         </h4>
-                        <button class="populares__boton">
+                        <button class="boton">
                             Ver todo 
                         </button>
                     </div>
 
-                    <div class="populares__contenido">
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_fMP-oCze3AY.png"></img>
+                    <div class="contenido">
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_fMP-oCze3AY.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Camisa Atari</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Camisa Atari</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_bUgaIaZysH0.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_bUgaIaZysH0.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Camisa SNES</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Camisa SNES</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_sYVY_ZKwaxU.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_sYVY_ZKwaxU.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Muñeco</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Muñeco</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
 
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_jMT6BrgBuXU.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_jMT6BrgBuXU.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Radio</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Radio</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_MxVkWPiJALs.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_MxVkWPiJALs.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Gafas virtuales</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Gafas virtuales</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
                         </div>
 
-                        <div class="populares__card">
-                            <img class="producto_imagen" src="./assets/img/unsplash_r27umXAelDc.png"></img>
+                        <div class="card">
+                            <img class="imagen" src="./assets/img/unsplash_r27umXAelDc.png"></img>
                             <div class="informacion_producto">
-                                <div class="producto_descripcion_precio">
-                                    <h5 class="producto_descripcion">Peluche</h5>
-                                    <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
+                                <div class="descripcion_precio">
+                                    <h5 class="descripcion">Peluche</h5>
+                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
                                 </div>
-                                <div class="producto_ver_producto">
+                                <div class="ver_producto">
                                     ver producto
                                 </div>
                             </div>
@@ -321,7 +316,7 @@
     <footer class="rodapie">
         <section class="section_footer">
             <div class="div_footer">
-                <div>
+                <div class="footer__img">
                     <img src="./assets/img/Logo.png" alt="Logo">
                 </div>
                 <div class="politica_footer">
@@ -376,6 +371,8 @@
             </div>
         </section>
     </footer>
+
+    <!--<script src="./js/busqueda.js"></script>-->
 
 
 </body>
