@@ -1,381 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <title>Store || Alura</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/populares.css">
-    <link rel="stylesheet" href="../assets/css/administrador.css">
+    <meta charset="UTF-8">
+
+    <title>Alura Store | Descargue nuestros aplicactivos y juegos</title>
+    <link href="../reset.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    <link href="../producto.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/img/iconoPlay.svg" type="image/x-icon">
 
 </head>
 
-<body class="app" id="body">
-    <header class="encabezado">
+<body>
 
-        <div class="container">
-            <h1 class="header_nombre">
-                <img src="../assets/img/Logo.png" alt="logo">
-            </h1>
-            <input type="text" name="filtro " id="filtrar-tabla" placeholder="¿Que deseas buscar?">
-            <a href="./agregar.html"> <button class="btnLogin">agregar producto</button></a>
-            <a href="../index.html"> <button class="btnLogin">Cerrar sección</button></a>
-
-
-
+    <header>
+        <div class="cabezera_container">
+            <img class="cabezera_logo" src="../assets/img/Logo.png" alt="logo">
+            <div class="busqueda">
+                <form action=""></form>
+                <input type="search" name="filtro " class="busqueda_campo" placeholder="¿Que deseas buscar?">
+            </div>
+            <a href="../html/agregar.html"><button class="login button">agregar producto</button></a>
+            <a href="../index.html"><button class="login button">Cerrar sección</button></a>
+            <button class="button-busqueda-login"><img src="../assets/img/lupa.png" alt="iconoLupa"> </button>
         </div>
-        <img class="img_hongo" src="../assets/img/hongo.png" alt="hongo">
-
-
     </header>
+
     <main>
+        <section class="contenido_container">
+            <div class="banner">
+                <div class="texto">
+                    <h1>Abril promocional</h1>
+                    <p>productos selecionados con el 33% de descuento</p>
+                    <a href="#consolas"><button class="consolas button">Ver consolas</button></a>
+                </div>
+            </div>
 
-        <main class="contenido" id="hola">
-            <section class="populares">
-                <div class="populares__items">
-                    <div class="populares__info" id="dos">
-
-                        <div class="populares__contenido">
-                            <div class="populares__card" id="tres">
-                                <img class="producto_imagen" src="../assets/img/cabeza.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">producto xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                            <div></div>
-                            <div class="populares__card">
-
-
-                                <p class="p" id="cua">Eliminar</p>
-
-                                <p class="p">Editar</p>
-
-
-                                <img class="producto_imagen" src="../assets/img/unsplash_epRFE_hBNjo.png">
-
-
-
-
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">producto xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="populares__card">
-                                <p class="p" id="cua">Eliminar</p>
-
-                                <p class="p">Editar</p>
-                                <img class="producto_imagen" src="../assets/img/unsplash_KeGToDVN0l4.png">
-
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">producto xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_4OHkK555s1A.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">producto xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_R8L1l9RN198.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">producto xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_1VV1MRafd7A.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">producto xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <section>
+                <div class="categoria">
+                    <div class="texto_categoria">
+                        <h2> Star Wars </h2>
+                        <a href=""><button class="boton button">Ver todo  </button></a>
                     </div>
+
+                    <div class="productos" data-productos>
+
+                        <!--<div class="card ">
+                            <img src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
+                            <h3>producto xyz</h3>
+                            <p>$60.00
+                                <p>
+                                    <a href="">ver producto</a>
+
+                        </div>
+                        <div class="card ">
+                            <img src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
+                            <h3>producto xyz</h3>
+                            <p>$60.00
+                                <p>
+                                    <a href="">ver producto</a>
+
+                        </div>
+                        <div class="card ">
+                            <img src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
+                            <h3>producto xyz</h3>
+                            <p>$60.00
+                                <p>
+                                    <a href="">ver producto</a>
+
+                        </div>
+                        <div class="card ">
+                            <img src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
+                            <h3>producto xyz</h3>
+                            <p>$60.00
+                                <p>
+                                    <a href="">ver producto</a>
+
+                        </div>-->
+
+                    </div>
+
                 </div>
 
-                <div class="populares__items" id="populares__item">
-                    <div class="populares__info">
-
-                        <div class="populares__contenido">
-                            <div class="populares__card" id="#populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_0POwK6iAiRQ.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Control xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_caNzzoxls8Q.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Control y consola xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_ZV7lnfyQLmA.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Consola xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_wa5z9o9fgjw.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Control xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_Zjn4dT993-g.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Consola xyz</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_k-xYhI3-gJM.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Game Boy Color</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            </section>
+            <!-- <section>
+                <div class="categoria" id="consolas">
+                    <div class="texto_categoria">
+                        <h2> consolas </h2>
+                        <a href=""><button class="boton">Ver todo  </button></a>
                     </div>
-                </div>
 
-                <div class="populares__items">
-                    <div class="populares__info">
-
-                        <div class="populares__contenido">
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_fMP-oCze3AY.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Camisa Atari</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_bUgaIaZysH0.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Camisa SNES</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_sYVY_ZKwaxU.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Muñeco</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_jMT6BrgBuXU.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Radio</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_MxVkWPiJALs.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Gafas virtuales</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="populares__card">
-                                <img class="producto_imagen" src="../assets/img/unsplash_r27umXAelDc.png">
-                                <div class="div_borradores">
-                                    <img src="../assets/img/Vector.png" alt="bo" class="borradores">
-                                    <img src="../assets/img/Vector (1).png" alt="bo" class="borradores">
-                                </div>
-                                <div class="informacion_producto">
-                                    <div class="producto_descripcion_precio">
-                                        <h5 class="producto_descripcion">Peluche</h5>
-                                        <time class="producto_precio" datetime="2013-08-01">$ 60.00</time>
-                                    </div>
-                                    <div class="producto_ver_producto">
-                                        ver producto
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="productos">
+                        <div class="card " data-productos>
+                            <img  src="./assets/img/cabeza.png"></img>
+                                <h3>producto xyz</h3>
+                                <p>$60.00<p>
+                                <a href="">verproducto</a>
+                            
                         </div>
                     </div>
                 </div>
             </section>
-        </main>
-
-
-
-
-
-
+        </section>-->
     </main>
-    <footer class="rodapie">
+
+    <!--<footer class="rodapie">
         <section class="section_footer">
             <div class="div_footer">
-                <div>
-                    <a href="../index.html">
-                        <img src="../assets/img/Logo.png" alt="logo">
-                    </a>
+                <div class="footer__img">
+                    <img src="./assets/img/Logo.png" alt="Logo">
                 </div>
                 <div class="politica_footer">
                     <nav class="nav_footer">
@@ -405,9 +139,9 @@
                     <form>
                         <h3 class="hable_nosotros">Hable con nosotros</h3>
                         <label for="nombre"></label>
-                        <input id="nombre" class="input_footer" name="nombre" type="text" placeholder="Nombre" required>
+                        <input id="nombre" class="input_footer" name="nombre" type="text" placeholder="Nombre" required data-nombre-footer>
                         <label for="mensaje"></label>
-                        <input id="mensaje" class="input_footer" name="mensaje" type="text" placeholder="Escribe tu mensaje" required><br>
+                        <input id="mensaje" class="input_footer" name="mensaje" type="text" placeholder="Escribe tu mensaje" required data-mensaje-footer><br>
 
                         <button class="btn_enviar_formulario">Enviar mensaje</button>
                     </form>
@@ -418,16 +152,19 @@
         <section class="footer">
             <h6>Desarrollado por Yeferson Caicedo</h6>
             <h6>2022 </h6>
+
             <div class="redes">
                 <a title="LinkedIn" href="https://www.linkedin.com/in/yeferson-caicedo-74752b23a">
-                    <img class="img-footer" id='linkedin' src="../assets/img/linkedin.png" alt="linkedin" />
+                    <img class="img-footer" id='linkedin' src="./assets/img/linkedin.png" alt="linkedin" />
                 </a>
                 <a title="GitHub" href="https://github.com/YefersonCAICEDO">
-                    <img class="img-footer" id="github" src="../assets/img/gitn.png" alt="github" />
+                    <img class="img-footer" id="github" src="./assets/img/gitn.png" alt="github" />
                 </a>
             </div>
         </section>
-    </footer>
+    </footer>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controllers/productoController.js"></script>
 
 </body>
 

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
+    <link href="../assets/css/editarProducto.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="shortcut icon" href="../assets/img/iconoPlay.svg" type="image/x-icon">
+</head>
+
+
+
+<body>
+
+    <header>
+        <div class="cabezera_container">
+            <img class="cabezera_logo" src="../assets/img/Logo.png" alt="logo">
+            <div class="busqueda">
+                <form action=""></form>
+                <input type="search" name="filtro " class="busqueda_campo" placeholder="¿Que deseas buscar?">
+            </div>
+            <a href="../html/administrador.html"><button class="login button">Volver</button></a>
+            <button class="button-busqueda-login"><img src="../assets/img/lupa.png" alt="iconoLupa"> </button>
+        </div>
+    </header>
+
+    <main>
+        <main>
+            <section class="section_editar">
+                <div class="div_editar">
+                    <form data-form>
+                        <h3 class="editar_producto">editar producto</h3>
+
+                        <label for="url_imagen"></label>
+                        <input id="url_imagen" class="editar" name="editarUrl" type="text" placeholder="URL imagen" required data-url>
+                        <!--
+                        <label for="categoria"></label>
+                        <input id="categoria" class="editar" name="editarCategoria" type="text" placeholder="Categoria" required >-->
+
+                        <label for="nombre_producto"></label>
+                        <input id="nombre_producto" class="editar" name="editarProducto" type="text" placeholder="Nombre producto" required data-name>
+
+                        <label for="precio"></label>
+                        <input id="precio" class="editar" name="precio" type="editarNumber" placeholder="precio" required data-precio><br>
+
+                        <label for="descripcion"></label>
+                        <input id="descripcion" class="editar" name="editarDescripcion" type="text" placeholder="Descripcion del producto" required data-descripcion><br>
+                        <button type="submit" class="btn_editar">Editar Producto</button>
+
+
+                    </form>
+
+                </div>
+            </section>
+            <footer class="rodapie">
+                <section class="section_footer">
+                    <div class="div_footer">
+                        <div>
+                            <img src="../assets/img/Logo.png" alt="logo">
+                        </div>
+                        <div class="politica_footer">
+                            <nav class="nav_footer">
+                                <a class="nav_footer_link" href="#">
+                                    Quienes somos
+                                </a>
+                                <a class="nav_footer_link" href="#">
+                                    Politica de privacidad
+                                </a>
+                                <a class="nav_footer_link" href="#">
+                                    Programa de fidelidad
+                                </a>
+                                <a class="nav_footer_link" href="#">
+                                    Nuestras tiendas
+                                </a>
+                                <a class="nav_footer_link" href="#">
+                                    Quiero ser franquiciado
+                                </a>
+                                <a class="nav_footer_link" href="#">
+                                    Anúncie aqui
+                                </a>
+                            </nav>
+
+                        </div>
+
+                        <div class="formulario">
+                            <form>
+                                <h3 class="hable_nosotros">Hable con nosotros</h3>
+                                <label for="nombre"></label>
+                                <input id="nombre" class="input_footer" name="nombre" type="text" placeholder="Nombre" required>
+                                <label for="mensaje"></label>
+                                <input id="mensaje" class="input_footer" name="mensaje" type="text" placeholder="Escribe tu mensaje" required><br>
+
+                                <button class="btn_enviar_formulario">Enviar mensaje</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </section>
+                <section class="footer">
+                    <h6>Desarrollado por Yeferson Caicedo</h6>
+                    <h6>2022 </h6>
+                    <div class="redes">
+                        <a title="LinkedIn" href="https://www.linkedin.com/in/yeferson-caicedo-74752b23a">
+                            <img class="img-footer" id='linkedin' src="../assets/img/linkedin.png" alt="linkedin" />
+                        </a>
+                        <a title="GitHub" href="https://github.com/YefersonCAICEDO">
+                            <img class="img-footer" id="github" src="../assets/img/gitn.png" alt="github" />
+                        </a>
+                    </div>
+                </section>
+            </footer>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script type="module" src="../controllers/actualizarProducto.js"></script>
+</body>
+
+</html>

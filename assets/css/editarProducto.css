@@ -1,0 +1,38 @@
+.section_editar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.div_editar {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.editar_producto {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.editar {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn_editar {
+    margin-top: 30px;
+    width: 400px;
+    background-color: #2A7AE4;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 20px;
+}

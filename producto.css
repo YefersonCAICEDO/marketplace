@@ -1,0 +1,87 @@
+:root {
+    --cardWidth: 12.5rem;
+    --carHeigth: 15.1rem;
+    --cardMagin: 0.60rem;
+}
+
+.categoria {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.texto_categoria {
+    width: 85%;
+    height: 2.37rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.texto-categoria img {
+    width: 16px;
+    height: 16px;
+    padding-right: 3.75rem;
+}
+
+.boton {
+    margin-top: 10px;
+    font-size: 16px;
+    color: var(--fuente-productos-azul);
+    border: none;
+    background-color: white;
+}
+
+.productos {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: var(--cardWidth);
+    height: var(--carHeigth);
+    margin: var(--cardMagin);
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 11rem;
+    height: 10.8rem;
+    display: flex;
+}
+
+.card h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--fuente-productos);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--fuente-productos);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card a {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--fuente-productos-azul);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*-------------*/

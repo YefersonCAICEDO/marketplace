@@ -1,0 +1,182 @@
+:root {
+    --releway: 'releway';
+    --background-blanco: #f5f5f5;
+    --fuente-barra: #a2a2a2;
+    --fuente-banner: #ffffff;
+    --fuente-productos: #464646;
+    --fuente-productos-azul: #2a7ae4;
+}
+
+body {
+    font-family: releway;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabezera_container {
+    width: 85%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .85rem;
+    padding-bottom: .85rem;
+}
+
+.cabezera_logo {
+    width: 9.3rem;
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50%;
+}
+
+.busqueda_campo {
+    padding: .75rem;
+    border-radius: 1.25rem;
+    border: none;
+    background-color: var(--background-blanco);
+}
+
+.busqueda_campo:focus {
+    outline: none;
+}
+
+.login {
+    width: 9rem;
+    height: 2.5rem;
+    margin: 2px;
+    font-size: 16px;
+    color: var(--fuente-productos-azul);
+    background-color: white;
+    border: 2px solid var(--fuente-productos-azul);
+}
+
+.login:hover {
+    background-color: var(--fuente-productos-azul);
+    color: white;
+}
+
+.contenido_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/img/hongo.png);
+    background-size: cover;
+    background-position: center center;
+    position: static;
+    justify-content: center;
+}
+
+.texto h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--fuente-banner);
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.texto p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--fuente-banner);
+    margin-left: 7.5rem;
+    margin-bottom: 1.25rem;
+    text-align: left;
+}
+
+.consolas {
+    width: 6.8rem;
+    height: 3.1rem;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--fuente-productos-azul);
+    color: white;
+    margin-left: 7.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    border: none;
+}
+
+.button-busqueda {
+    margin-left: -50px;
+    border: none;
+    opacity: 50;
+    background-color: var(--background-blanco);
+}
+
+.button-busqueda-login {
+    display: none;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.eli {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .busqueda {
+        margin-right: 10%;
+    }
+    .busqueda_campo {
+        display: none;
+    }
+    .texto h1 {
+        font-size: 22px;
+        margin: 1rem;
+    }
+    .texto p {
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+    .login {
+        width: 6rem;
+    }
+    .consolas {
+        margin-left: 1rem;
+        width: 7rem;
+        height: 2rem;
+        font-size: 14px;
+        text-align: center;
+    }
+    .button-busqueda {
+        display: none;
+    }
+    .button-busqueda-login {
+        display: inline;
+        background-color: white;
+        border: none;
+        margin-left: 0.62rem;
+    }
+    .cabezera_container {
+        width: 90%;
+    }
+    .cabezera_logo {
+        width: 7.5rem;
+    }
+}

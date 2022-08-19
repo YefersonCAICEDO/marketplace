@@ -3,314 +3,104 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Alura Store | Descargue nuestros aplicactivos y juegos</title>
-    <link href="./assets/css/normalize.css" rel="stylesheet">
-    <link href="./assets/css/reset.css" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet">
-    <link href="./assets/css/populares.css" rel="stylesheet">
-    <link rel="icon" href="./assets/img/favicon.png">
-    <link rel="stylesheet" href="./assets/css/responsivo.css">
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="producto.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/footer.css">
-
-
-
+    <link rel="shortcut icon" href="./assets/img/iconoPlay.svg" type="image/x-icon">
 
 </head>
 
-<body class="app" id="body">
+<body>
 
-    <header class="encabezado banner">
-        <div class="container">
-            <img src="./assets/img/Logo.png" alt="logo" class="logo">
-            <input type="text" name="filtro " class="search__bar" id="filtrar-tabla" placeholder="¿Que deseas buscar?">
-            <a href="./html/login.html"> <button class="btnLogin" onclick="">Login</button></a>
+    <header>
+        <div class="cabezera_container">
+            <img class="cabezera_logo" src="./assets/img/Logo.png" alt="logo">
+            <div class="busqueda">
+                <form action=""></form>
+                <input type="search" name="filtro " class="busqueda_campo" placeholder="¿Que deseas buscar?" data-buscador>
+                <button class="buttonBusqueda" id="buscar_Productos">sd</button>
+            </div>
+            <a href="./html/login.html"><button class="login button">Login</button></a>
+            <button class="button-busqueda-login"><img src="./assets/img/lupa.png" alt="iconoLupa"> </button>
         </div>
     </header>
 
-    <img class="img_hongo" src="./assets/img/hongo.png" alt="hongo">
-
-    <main class="contenido">
-        <section class="star__wars">
-            <div class="items">
-                <div class="info">
-                    <div class="header section__header">
-                        <h4 class="titulo">
-                            Star Wars
-                        </h4>
-                        <button class="boton">
-                          
-                            Ver todo 
-                        </button>
-                    </div>
-
-                    <div class="contenido">
-                        <div class="card product">
-                            <img class="imagen" src="./assets/img/cabeza.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">producto xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_epRFE_hBNjo.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">producto xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_KeGToDVN0l4.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">producto xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_4OHkK555s1A.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">producto xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_R8L1l9RN198.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">producto xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_1VV1MRafd7A.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">producto xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!---------------------------------------------------------------- -->
-        <section>
-            <div class="items">
-                <div class="info">
-                    <div class="header">
-                        <h4 class="titulo">
-                            Consolas
-                        </h4>
-                        <button class="boton">
-                          
-                            Ver todo 
-                        </button>
-                    </div>
-
-                    <div class="contenido">
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Control xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_caNzzoxls8Q.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Control y consola xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_ZV7lnfyQLmA.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Consola xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_wa5z9o9fgjw.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Control xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_Zjn4dT993-g.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Consola xyz</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_k-xYhI3-gJM.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Game Boy Color</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!---------------------------------------------------------------- -->
-        <section>
-            <div class="items">
-                <div class="info">
-                    <div class="header">
-                        <h4 class="titulo">
-                            Diversos
-                        </h4>
-                        <button class="boton">
-                            Ver todo 
-                        </button>
-                    </div>
-
-                    <div class="contenido">
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_fMP-oCze3AY.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Camisa Atari</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_bUgaIaZysH0.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Camisa SNES</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_sYVY_ZKwaxU.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Muñeco</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_jMT6BrgBuXU.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Radio</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_MxVkWPiJALs.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Gafas virtuales</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img class="imagen" src="./assets/img/unsplash_r27umXAelDc.png"></img>
-                            <div class="informacion_producto">
-                                <div class="descripcion_precio">
-                                    <h5 class="descripcion">Peluche</h5>
-                                    <time class="precio" datetime="2013-08-01">$ 60.00</time>
-                                </div>
-                                <div class="ver_producto">
-                                    ver producto
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <main>
+        <section class="contenido_container">
+            <div class="banner">
+                <div class="texto">
+                    <h1>Abril promocional</h1>
+                    <p>productos selecionados con el 33% de descuento</p>
+                    <a href="#consolas"><button class="consolas button" >Ver consolas</button></a>
                 </div>
             </div>
 
+            <section>
+                <div class="categoria">
+                    <div class="texto_categoria">
+                        <h2> Star Wars </h2>
+                        <a href=""><button class="boton button" >Ver todo  </button></a>
+                    </div>
 
-        </section>
+                    <div class="productos" data-productos>
+
+                        <!--<div class="card ">
+                            <img src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
+                            <h3>producto xyz</h3>
+                            <p>$60.00
+                                <p>
+                                    <a href="">ver producto</a>
+
+                        </div>
+                        <div class="card ">
+                            <img src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
+                            <h3>producto xyz</h3>
+                            <p>$60.00
+                                <p>
+                                    <a href="">ver producto</a>
+
+                        </div>
+                        <div class="card ">
+                            <img src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
+                            <h3>producto xyz</h3>
+                            <p>$60.00
+                                <p>
+                                    <a href="">ver producto</a>
+
+                        </div>
+                        <div class="card ">
+                            <img src="./assets/img/unsplash_0POwK6iAiRQ.png"></img>
+                            <h3>producto xyz</h3>
+                            <p>$60.00
+                                <p>
+                                    <a href="">ver producto</a>
+
+                        </div>-->
+
+                    </div>
+
+                </div>
+
+            </section>
+            <section id="consolas">
+                <div class="categoria" id="consolas">
+                    <div class="texto_categoria">
+                        <h2> consolas </h2>
+                        <a href=""><button class="boton">Ver todo  </button></a>
+                    </div>
+
+                    <div class="productos">
+                        <div class="card " data-productos>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>-->
     </main>
 
     <footer class="rodapie">
@@ -347,9 +137,9 @@
                     <form>
                         <h3 class="hable_nosotros">Hable con nosotros</h3>
                         <label for="nombre"></label>
-                        <input id="nombre" class="input_footer" name="nombre" type="text" placeholder="Nombre" required>
+                        <input id="nombre" class="input_footer" name="nombre" type="text" placeholder="Nombre" required data-nombre-footer>
                         <label for="mensaje"></label>
-                        <input id="mensaje" class="input_footer" name="mensaje" type="text" placeholder="Escribe tu mensaje" required><br>
+                        <input id="mensaje" class="input_footer" name="mensaje" type="text" placeholder="Escribe tu mensaje" required data-mensaje-footer><br>
 
                         <button class="btn_enviar_formulario">Enviar mensaje</button>
                     </form>
@@ -371,9 +161,8 @@
             </div>
         </section>
     </footer>
-
-    <!--<script src="./js/busqueda.js"></script>-->
-
+    <script src="./controllers/buscadorProducto.js"></script>
+    <script type="module" src="./controllers/productoControllerUsuario.js"></script>
 
 </body>
 

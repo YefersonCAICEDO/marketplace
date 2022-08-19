@@ -4,10 +4,9 @@
 <head>
     <title>Login | Alura Store </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/productoAgregado.css">
     <link rel="shortcut icon" href="../assets/img/iconoPlay.svg" type="image/x-icon">
 </head>
 
@@ -23,25 +22,15 @@
         </div>
     </header>
 
-    <main>
-        <section class="section_login" id="body_login">
-            <div class="div_login">
-                <form>
-                    <h3 class="iniciar_seccion">Iniciar sección</h3>
-                    <label for="correo"></label>
-                    <input id="correo" class="input_login" name="correo" type="email" placeholder="Correo electronico" required>
-                    <label for="contraseña"></label>
-                    <input id="contraseña" class="input_login" name="contraseña" type="password" placeholder="Escribe tu contraseña" required><br>
-
-
-                </form>
-                <a href="./administrador.html"><button  class="btn_enviar_login" id="btn_entrar">Entrar</button></a>
-            </div>
+    <main class="container flex flex--column flex--center">
+        <section class="register-card card">
+            <img src="../assets/img/correcto.jpg" alt="correcto" class="register-card__icon-complete">
+            <h1 class="register-card__title card__title">
+                Producto agregado con éxito
+            </h1>
+            <a href="./administrador.html" class="button">Ver productos</a>
+            <a href="./agregar.html" class="button">Agregar nuevo producto</a>
         </section>
-
-
-
-
     </main>
 
 
