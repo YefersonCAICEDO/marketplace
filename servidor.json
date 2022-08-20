@@ -8,13 +8,6 @@
       "id": "ca70d970-cce1-4bb0-9a68-cecbd0e30231"
     },
     {
-      "imageUrl": "http://127.0.0.1:5501/assets/img/dosCabezasNegras.png",
-      "name": "dos cabezas x una",
-      "price": "60.00",
-      "description": "cabeza de muñeco blanca",
-      "id": "ca70d970-cce1-4bb0-9a68-cecbd0e3023"
-    },
-    {
       "imageUrl": "http://127.0.0.1:5501/assets/img/muñecoVerdeNaranja.png",
       "name": "muñeco perturvador",
       "price": "60.000",
@@ -36,47 +29,11 @@
       "id": "ca70d970-cce1-4bb0-9a68-cecbd0e3"
     },
     {
-      "name": "control Xbox",
-      "imageUrl": "http://127.0.0.1:5501/assets/img/control1.png",
-      "price": "60.00",
-      "id": "c4226e7b-b001-430f-857a-55ff1c9036b8",
-      "description": "control Xbox"
-    },
-    {
-      "name": "Xbox azul",
-      "imageUrl": "http://127.0.0.1:5501/assets/img/consolayControlAzul.png",
-      "price": "60.00",
-      "id": "c4226e7b-b001-430f-857a-55ff1c9036b",
-      "description": "Xbox azul"
-    },
-    {
-      "name": "Nintendo",
-      "imageUrl": "http://127.0.0.1:5501/assets/img/nintendoViejo.png",
-      "price": "60.00",
-      "section": "consolas",
-      "id": "c4226e7b-b001-430f-857a-55ff1c9036",
-      "description": "Nintendo"
-    },
-    {
-      "name": "Game Pad",
-      "imageUrl": "http://127.0.0.1:5501/assets/img/gamepadRojoAzul.png",
-      "price": "60.00",
-      "id": "c4226e7b-b001-430f-857a-55ff1c903",
-      "description": "Game Pad"
-    },
-    {
       "imageUrl": "http://127.0.0.1:5501/assets/img/control1.png",
       "name": "Xbox color Negro",
       "price": "60.000",
       "description": "Xbox color Negro",
       "id": "c4226e7b-b001-430f-857a-55ff1c90"
-    },
-    {
-      "name": "algo",
-      "imageUrl": "data:image/jpeg;base64,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",
-      "price": "56.00",
-      "id": "481601c7-e771-4604-9a9b-88377cef8535",
-      "description": "algo"
     }
   ]
 }

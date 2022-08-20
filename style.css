@@ -137,6 +137,7 @@ header {
     font-size: 15px;
     color: blue;
     text-decoration: none;
+    cursor: pointer;
 }
 
 @media (min-width:320px) and (max-width:768px) {

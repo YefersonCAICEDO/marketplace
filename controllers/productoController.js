@@ -13,7 +13,7 @@ const nuevoProducto = (name, price, imageUrl, id) => {
         <p>${price}<p>
         <button type=""button id="${id}" class="eli"> <a> Eliminar</a> </button> 
         <a href="../html/editar.html?id=${id}"class="eli" >Editar</a>  <br>
-        <a href="">Ver producto</a> 
+        
         
 
     `;
