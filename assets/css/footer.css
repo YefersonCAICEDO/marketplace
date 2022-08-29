@@ -59,7 +59,7 @@ section.footer {
 
 /*tablet*/
 
-@media(min-width: 769px) {
+@media(max-width: 769px) {
     .nav_footer_link {
         font-weight: 100;
     }
