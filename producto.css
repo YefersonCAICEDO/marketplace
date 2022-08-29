@@ -86,7 +86,7 @@ h2 {
 
 /*tablet*/
 
-@media(max-width: 769px) {
+@media(min-width: 769px) {
     .productos {
         width: 100%;
     }
