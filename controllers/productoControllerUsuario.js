@@ -19,7 +19,7 @@ const nuevaLinea = (name, price, imageUrl) => {
 const productos = document.querySelector('[data-productos]')
 
 const http = new XMLHttpRequest();
-http.open("GET", "https://630ab2bced18e82516493888.mockapi.io/api/v1/producto");
+http.open("GET", "");
 
 http.send();
 
