@@ -6,7 +6,7 @@ const nuevaLinea = (name, price, imageUrl) => {
         <img  src="${imageUrl}"></img>
         <h3>${name}</h3>   
         <p>${price}<p>
-        <a href="">ver producto</a>
+        <a href="">Ver producto</a>
 
 
     `;
