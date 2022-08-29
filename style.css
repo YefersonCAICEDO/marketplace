@@ -140,44 +140,8 @@ header {
     cursor: pointer;
 }
 
-@media (min-width:320px) and (max-width:768px) {
-    .busqueda {
-        margin-right: 10%;
-    }
-    .busqueda_campo {
-        display: none;
-    }
-    .texto h1 {
-        font-size: 22px;
-        margin: 1rem;
-    }
-    .texto p {
-        font-size: 0.8rem;
-        margin-left: 1rem;
-    }
-    .login {
-        width: 6rem;
-    }
-    .consolas {
-        margin-left: 1rem;
-        width: 7rem;
-        height: 2rem;
-        font-size: 14px;
-        text-align: center;
-    }
-    .button-busqueda {
-        display: none;
-    }
-    .button-busqueda-login {
-        display: inline;
-        background-color: white;
-        border: none;
-        margin-left: 0.62rem;
-    }
-    .cabezera_container {
-        width: 90%;
-    }
-    .cabezera_logo {
-        width: 7.5rem;
+@media (min-width:768px) {
+    header {
+        width: 70%;
     }
 }

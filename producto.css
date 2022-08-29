@@ -84,4 +84,13 @@ h2 {
 }
 
 
-/*-------------*/
+/*tablet*/
+
+@media(min-width: 769px) {
+    .productos {
+        width: 100%;
+    }
+    .card {
+        width: 17%;
+    }
+}

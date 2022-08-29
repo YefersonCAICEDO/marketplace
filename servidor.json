@@ -23,17 +23,31 @@
     },
     {
       "imageUrl": "http://127.0.0.1:5501/assets/img/muñequitoVerde.png",
-      "name": "Mini muñeco verde",
+      "name": "Mini muñeco ver",
       "price": "60.00",
-      "description": "Mini muñeco verde",
+      "description": "Mini muñeco verd",
       "id": "ca70d970-cce1-4bb0-9a68-cecbd0e3"
     },
     {
       "imageUrl": "http://127.0.0.1:5501/assets/img/control1.png",
       "name": "Xbox color Negro",
       "price": "60.000",
-      "description": "Xbox color Negro",
+      "description": "Xbox color Negr",
       "id": "c4226e7b-b001-430f-857a-55ff1c90"
+    },
+    {
+      "name": "json",
+      "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGCBMTExcTExUXGBcZGhcZFxoZGh8ZGhwZHBkZHB8fGRoaHysjHxwoIRcZJDUkKCwuMjIyGSE3PDcxOysyMi4BCwsLDw4PGRERGTEfGR8uLjExLjExOzExMTExMTEuLjE7Li47Li4uLjExLjEuLjE2MS4xMTExLjEuMTExOzsxMf/AABEIAQAAxQMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAwQFBgECBwj/xABEEAACAQIEBAMFBAcECwEBAAABAgMAEQQSITEFBkFREyJhBzJCcYEUI5GhUmJygrHB8DNjktEVFiRDVKKywtLh8VMI/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGhEBAQEAAwEAAAAAAAAAAAAAAAERAjFBIf/aAAwDAQACEQMRAD8AsTCtKXdKSYVpgXpRXpCtg1A6RqcI9MkNKxtQP0enEb1HxvTmN6CWwa3p60oGgqJhxNhalEkoakY3vpe1U72oY4jDK8V3Cuc2VCyqBoS7DRQDprpVpw76/IE/kapWPwH2jCrHI+WOxllZZHQqZGZyFfKYXHntkbr1vrUXxzKbi7nc1hsbnFiagZJL6jY0JMa3OTFh/joyva1RzGl5cSWFjb5021NLSRoxpCSnDxmm5U1mtQkwrQ0q0dYKVGpSVqxWzCtaiiiiigKxWaxQek5Epu60/lSm8iVpgzIrApV1pMrQZU0qppECtloHKNS6NTZDSqGgexvS6PTJGpYNQY5jxfhYLESk28hQHrdvLoe/mFUTB83o0MUUhaUSQyR4iM+WNdLqYkAAFlBXKotYi17G877YMZ4PDhD8bnO3yXX/AKio+lcfQlQpU2K2IPYi1j9CKDbj/CZMJM0DjbzRtuHjbVGBGhuPzBqNBrq/NfDk4hwuDEQC0kKaKNfLs8fyUqQP2RXJmoNwb05gQHQkAWP1NvSmKPqKco1h69Ksr",
+      "price": "2550",
+      "id": "69a8b795-ec40-4b6e-adb3-973196aba926",
+      "description": "uuiud"
+    },
+    {
+      "name": "s",
+      "imageUrl": "https://yt3.ggpht.com/ytc/AMLnZu9hv_vCie23HTkPzwUgF7loqz1JaCCJYiz8VRtkTQ=s900-c-k-c0x00ffffff-no-rj",
+      "price": "20",
+      "id": "426ba744-14b5-4be3-9368-4e3b973371da",
+      "description": "codigo.json"
     }
   ]
 }
