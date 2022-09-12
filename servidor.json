@@ -1,53 +1,129 @@
 {
-  "producto": [
-    {
-      "imageUrl": "http://127.0.0.1:5501/assets/img/cabeza.png",
-      "name": "cabeza",
-      "price": "60.00",
-      "description": "cabeza de muñeco blanca",
-      "id": "ca70d970-cce1-4bb0-9a68-cecbd0e30231"
-    },
-    {
-      "imageUrl": "http://127.0.0.1:5501/assets/img/muñecoVerdeNaranja.png",
-      "name": "muñeco perturvador",
-      "price": "60.000",
-      "description": "muñeco perturvador",
-      "id": "ca70d970-cce1-4bb0-9a68-cecbd0e302"
-    },
-    {
-      "imageUrl": "http://127.0.0.1:5501/assets/img/muñecoBlanco.png",
-      "name": "muñeco balco con arma",
-      "price": "60.00",
-      "description": "cabeza de muñeco blanca",
-      "id": "ca70d970-cce1-4bb0-9a68-cecbd0e30"
-    },
-    {
-      "imageUrl": "http://127.0.0.1:5501/assets/img/muñequitoVerde.png",
-      "name": "Mini muñeco ver",
-      "price": "60.00",
-      "description": "Mini muñeco verd",
-      "id": "ca70d970-cce1-4bb0-9a68-cecbd0e3"
-    },
-    {
-      "imageUrl": "http://127.0.0.1:5501/assets/img/control1.png",
-      "name": "Xbox color Negro",
-      "price": "60.000",
-      "description": "Xbox color Negr",
-      "id": "c4226e7b-b001-430f-857a-55ff1c90"
-    },
-    {
-      "name": "json",
-      "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGCBMTExcTExUXGBcZGhcZFxoZGh8ZGhwZHBkZHB8fGRoaHysjHxwoIRcZJDUkKCwuMjIyGSE3PDcxOysyMi4BCwsLDw4PGRERGTEfGR8uLjExLjExOzExMTExMTEuLjE7Li47Li4uLjExLjEuLjE2MS4xMTExLjEuMTExOzsxMf/AABEIAQAAxQMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAwQFBgECBwj/xABEEAACAQIEBAMFBAcECwEBAAABAgMAEQQSITEFBkFREyJhBzJCcYEUI5GhUmJygrHB8DNjktEVFiRDVKKywtLh8VMI/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGhEBAQEAAwEAAAAAAAAAAAAAAAERAjFBIf/aAAwDAQACEQMRAD8AsTCtKXdKSYVpgXpRXpCtg1A6RqcI9MkNKxtQP0enEb1HxvTmN6CWwa3p60oGgqJhxNhalEkoakY3vpe1U72oY4jDK8V3Cuc2VCyqBoS7DRQDprpVpw76/IE/kapWPwH2jCrHI+WOxllZZHQqZGZyFfKYXHntkbr1vrUXxzKbi7nc1hsbnFiagZJL6jY0JMa3OTFh/joyva1RzGl5cSWFjb5021NLSRoxpCSnDxmm5U1mtQkwrQ0q0dYKVGpSVqxWzCtaiiiiigKxWaxQek5Epu60/lSm8iVpgzIrApV1pMrQZU0qppECtloHKNS6NTZDSqGgexvS6PTJGpYNQY5jxfhYLESk28hQHrdvLoe/mFUTB83o0MUUhaUSQyR4iM+WNdLqYkAAFlBXKotYi17G877YMZ4PDhD8bnO3yXX/AKio+lcfQlQpU2K2IPYi1j9CKDbj/CZMJM0DjbzRtuHjbVGBGhuPzBqNBrq/NfDk4hwuDEQC0kKaKNfLs8fyUqQP2RXJmoNwb05gQHQkAWP1NvSmKPqKco1h69Ksr",
-      "price": "2550",
-      "id": "69a8b795-ec40-4b6e-adb3-973196aba926",
-      "description": "uuiud"
-    },
-    {
-      "name": "s",
-      "imageUrl": "https://yt3.ggpht.com/ytc/AMLnZu9hv_vCie23HTkPzwUgF7loqz1JaCCJYiz8VRtkTQ=s900-c-k-c0x00ffffff-no-rj",
-      "price": "20",
-      "id": "426ba744-14b5-4be3-9368-4e3b973371da",
-      "description": "codigo.json"
-    }
-  ]
+    "producto": [{
+            "imageUrl": "http://127.0.0.1:5501/assets/img/cabeza.png",
+            "name": "cabeza",
+            "price": "60.00",
+            "description": "cabeza de muñeco blanca",
+            "id": "ca70d970-cce1-4bb0-9a68-cecbd0e30231"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/dosCabezasNegras.png",
+            "name": "Dos cabezas por una",
+            "price": "60.00",
+            "description": "Dos cabezas por una",
+            "id": "442"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/muñecoVerdeNaranja.png",
+            "name": "muñeco perturvador",
+            "price": "60.000",
+            "description": "muñeco perturvador",
+            "id": "ca70d970-cce1-4bb0-9a68-cecbd0e302"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/muñecoBlanco.png",
+            "name": "muñeco balco con arma",
+            "price": "60.00",
+            "description": "cabeza de muñeco blanca",
+            "id": "ca70d970-cce1-4bb0-9a68-cecbd0e30"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/muñequitoVerde.png",
+            "name": "Mini muñeco ver",
+            "price": "60.00",
+            "description": "Mini muñeco verde",
+            "id": "ca70d970-cce1-4bb0-9a68-cecbd0e3"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/control1.png",
+            "name": "Xbox color Negro",
+            "price": "60.000",
+            "description": "Xbox color Negro",
+            "id": "c4226e7b-b001-430f-857a-55ff1c90"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/muñecoNegro.png",
+            "name": "Muñeco Negro",
+            "price": "60.00",
+            "description": "Muñeco Negro",
+            "id": "c4226e7b-b001-430f-857a-55ff1c9"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/consolayControlAzul.png",
+            "name": "Consola con Mando",
+            "price": "60.00",
+            "description": "Consola con Mando",
+            "id": "c4226e7b-b001-430f-857a-55ff1c"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/nintendoViejo.png",
+            "name": "Nintendo",
+            "price": "60.00",
+            "description": "Nintendo",
+            "id": "c4226e7b-b001-430f-857a-55ff1"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/gamepadRojoAzul.png",
+            "name": "Game Pad",
+            "price": "60.00",
+            "description": "Game Pad",
+            "id": "c4226e7b-b001-430f-857a-55ff"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/consolaNgra.png",
+            "name": "XBOX",
+            "price": "60.00",
+            "description": "XBOX",
+            "id": "c4226e7b-b001-430f-857a-55f"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/nintendoCartuchos.png",
+            "name": "Game Boy Color ",
+            "price": "60.00",
+            "description": "Game Boy Color ",
+            "id": "c4226e7b-b001-430f-857a-55"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/logoenChino.png",
+            "name": "Camisa Atari",
+            "price": "60.00",
+            "description": "Camisa Atari",
+            "id": "c4226e7b-b001-430f-857a-5"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/personaConControl.png",
+            "name": "Camisa SNES",
+            "price": "60.00",
+            "description": "Camisa SNES",
+            "id": "c4226e7b-b001-430f-857a-"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/sonicAzul.png",
+            "name": "Sonic",
+            "price": "60.00",
+            "description": "Sonic",
+            "id": "c4226e7b-b001-430f-857a"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/radioRosada.png",
+            "name": "Radio Rosada",
+            "price": "60.00",
+            "description": "Radio Rosada",
+            "id": "c4226e7b-b001-430f-857"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/manGafasVirtuales.png",
+            "name": "Gafas virtuales",
+            "price": "60.00",
+            "description": "Gafas virtuales",
+            "id": "c4226e7b-b001-430f-85"
+        },
+        {
+            "imageUrl": "http://127.0.0.1:5501/assets/img/picachuGrande.png",
+            "name": "Picachu",
+            "price": "60.00",
+            "description": "Picachu",
+            "id": "c4226e7b-b001-430f-8"
+        }
+    ]
 }

@@ -15,7 +15,7 @@ form.addEventListener('submit', (evento) => {
         console.log(respuesta)
 
     }).catch(err => {
-        console.log(err)
+        window.location.href = "/html/error.html";
 
     })
 
